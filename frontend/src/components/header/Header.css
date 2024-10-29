@@ -13,8 +13,8 @@
 }
 
 .headerContainer.listMode {
-    margin: 20px 0px 0px 0px;
-  }
+  margin: 20px 0px 0px 0px;
+}
 
 .headerList {
   display: flex;
@@ -45,7 +45,7 @@
   border: none;
   padding: 10px;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .headerSearch {
@@ -85,6 +85,7 @@
 
 .date {
   position: absolute;
+  z-index: 2;
   top: 50px;
   webkit-box-shadow: 7px 10px 29px -5px rgba(0, 0, 0, 0.73);
   -moz-box-shadow: 7px 10px 29px -5px rgba(0, 0, 0, 0.73);
@@ -93,6 +94,7 @@
 
 .options {
   position: absolute;
+  z-index: 2;
   top: 50px;
   background-color: white;
   color: gray;
@@ -108,8 +110,8 @@
   justify-content: space-between;
 }
 
-.optionText{
-    padding: 15px;
+.optionText {
+  padding: 15px;
 }
 
 .optionCounter {
@@ -129,9 +131,9 @@
   color: black;
   cursor: pointer;
   background-color: #d3d3d3;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.optionCounterButton:disabled{
-    cursor: not-allowed;
+.optionCounterButton:disabled {
+  cursor: not-allowed;
 }
